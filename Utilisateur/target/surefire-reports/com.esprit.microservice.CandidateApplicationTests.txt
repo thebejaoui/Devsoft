@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.esprit.microservice.CandidateApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.027 s <<< FAILURE! - in com.esprit.microservice.CandidateApplicationTests
+initializationError(com.esprit.microservice.CandidateApplicationTests)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+

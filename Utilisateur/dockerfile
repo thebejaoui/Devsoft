@@ -1,0 +1,6 @@
+FROM  java:8
+EXPOSE 8090
+ADD /target/backend-service-1.0.0.jar backend-service.jar 
+ENTRYPOINT ["java", "-jar", "backend-service.jar"]
+
+
